@@ -270,3 +270,63 @@ footer {
     justify-content: center;
     gap: 15px;
 }
+
+/* Estilos para las secciones de carrera */
+.career-step {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.8s, transform 0.8s;
+}
+
+.career-step img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.career-step h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.career-step p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Animación de desplazamiento */
+.career-step.slide-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Botón "Leer más" */
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #555;
+}
+
+/* Botones de navegación */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
